@@ -1,0 +1,10 @@
+
+.deleteu a {
+    color: #ff2b01;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.deleteu a:hover {
+    color:#ff0505;
+}

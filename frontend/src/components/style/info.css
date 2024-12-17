@@ -1,0 +1,77 @@
+.back a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: rgba(31, 30, 30, 0.742);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.back a:hover {
+    background-color: black;
+
+}
+
+
+.addnew {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.addnew a {
+    padding: 10px 20px;
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.addnew a:hover {
+    background-color: darkgreen;
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.134);
+}
+.table tr {
+    border-radius: 8px;
+
+}
+
+.table th {
+    background-color: #c9c8c8;
+
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    transition: transform 0.3s
+    
+}
+
+
+
+.table tbody tr:nth-of-type(even) {
+    background-color: rgb(241, 248, 251);
+}
+
+.table tbody tr:hover {
+    background-color:  rgba(119, 153, 168, 0.253);
+}

@@ -1,0 +1,57 @@
+
+
+
+.content h1{
+    padding-top: 0%;
+}
+.g,.cd,.o,.mof,.mo,.c,.si,.p,.s,.u{
+    background-color: antiquewhite;
+    font-size:16px;
+    font-weight:600;
+    padding:6px;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+
+
+.input-create{
+    width: 11.5%;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 50;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right:18px
+}
+
+
+.content select{
+    width: 12%;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right:18px
+
+}
+
+.content label{
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: 400;
+} 
+
+.content label input[type="text"]::placeholder {
+    text-align: right;
+}
+
+label a{
+    color: red;
+}
